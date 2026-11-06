@@ -111,7 +111,7 @@ def get_order_data(invoice_num, filename, directory):
 
 # question 4
 def create_invoice(invoice_num, order_data, directory):
-    create_pdf(directory + "MasterInvoice copy.pdf", directory + f"Invoice {invoice_num}.pdf", order_data)
+    create_pdf(directory + "MasterInvoice.pdf", directory + f"Invoice {invoice_num}.pdf", order_data)
 
 #question 5
 gmail_user = "boston13billings@gmail.com"
