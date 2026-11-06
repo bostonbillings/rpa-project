@@ -39,7 +39,7 @@ product_descriptions = {}
 for i, row in df.iterrows():
     product_descriptions[row['Unit number']] = row['Description']
 
-df1 = pd.read_excel('ProductData.xlsx', sheet_name='Prices')
+df1 = pd.read_excel(directory + 'ProductData.xlsx', sheet_name='Prices')
 
 product_prices = {}
 for i, row in df1.iterrows():
