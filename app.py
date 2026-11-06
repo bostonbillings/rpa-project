@@ -33,7 +33,7 @@ while True:
 
 
 # question 2
-df = pd.read_excel('ProductData.xlsx', sheet_name='Descriptions')
+df = pd.read_excel(directory + 'ProductData.xlsx', sheet_name='Descriptions')
 
 product_descriptions = {}
 for i, row in df.iterrows():
